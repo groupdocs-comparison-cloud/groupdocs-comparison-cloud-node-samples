@@ -1,0 +1,12 @@
+{
+	"name": "group-docs.comparison.cloud.node.examples",
+	"version": "0.0.0",
+	"description": "GroupDocs.Comparison.Cloud.Node.Examples",
+	"main": "app.js",
+	"author": {
+		"name": ""
+	},
+	"dependencies": {
+		"groupdocs-comparison-cloud": "^19.5.0"
+	}
+}
