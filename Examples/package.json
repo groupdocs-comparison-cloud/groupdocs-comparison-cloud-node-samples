@@ -1,12 +1,15 @@
 {
-	"name": "group-docs.comparison.cloud.node.examples",
-	"version": "0.0.0",
-	"description": "GroupDocs.Comparison.Cloud.Node.Examples",
-	"main": "app.js",
-	"author": {
-		"name": ""
-	},
-	"dependencies": {
-		"groupdocs-comparison-cloud": "^19.5.0"
-	}
+  "name": "group-docs.comparison.cloud.node.examples",
+  "version": "1.0.0",
+  "description": "GroupDocs.Comparison.Cloud.Node.Examples",
+  "main": "app.js",
+  "author": {
+    "name": "GroupDocs Product Team"
+  },
+  "dependencies": {
+    "groupdocs-comparison-cloud": "^20.5.0"
+  },
+  "scripts": {
+    "start": "node RunExamples.js"
+  }
 }
