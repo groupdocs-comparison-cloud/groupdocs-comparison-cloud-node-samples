@@ -13,14 +13,14 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Comparison
 ## Prerequisites
 
 + Node.js with NPM installed
-+ Get your AppSID and AppKey at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
++ Get your clientId and clientSecret at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
 
 ## How to Run the Examples?
 
 The package contains Node.js examples. Follow the given steps to proceed run:
 
 * Extract the downloaded project
-* Edit RunExamples.js and put appSid and appKey, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) there
+* Edit RunExamples.js and put clientId and clientSecret, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) there
 * Go to "Examples" directory of the project
 * Execute "npm install" command
 * Execute "npm update" command

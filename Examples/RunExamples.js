@@ -8,18 +8,21 @@ global.serializer_1 = require("groupdocs-comparison-cloud/lib/serializer");
 ////          GroupDocs.Comparison Cloud API Examples
 //// ***********************************************************
 
-//TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud (free registration is required).
+//TODO: Get your clientId and clientSecret at https://dashboard.groupdocs.cloud (free registration is required).
 
-global.appSid = "XXXX-XXXX-XXXX-XXXX";
-global.appKey = "XXXXXXXXXXXXXXXX";
+global.clientId = "XXXX-XXXX-XXXX-XXXX";
+global.clientSecret = "XXXXXXXXXXXXXXXX";
 
 global.myStorage = "First Storage";
 
-const config = new comparison_cloud.Configuration(appSid, appKey);
+const config = new comparison_cloud.Configuration(clientId, clientSecret);
 config.apiBaseUrl = "https://api.groupdocs.cloud";
 
 // construct CompareApi
 global.compareApi = comparison_cloud.CompareApi.fromConfig(config);
+
+// construct ReviewApi
+global.reviewApi = comparison_cloud.ReviewApi.fromConfig(config);
 
 // construct InfoApi
 global.infoApi = comparison_cloud.InfoApi.fromConfig(config);
@@ -52,6 +55,8 @@ async function examples() {
     await require('./AdvancedUsage/CustomizeChangesStyles').Run();
     await require('./AdvancedUsage/GetChangesCoordinates').Run();
     await require('./AdvancedUsage/GetListOfChanges').Run();
+    await require('./AdvancedUsage/Revisions/GetListOfRevisions').Run();
+    await require('./AdvancedUsage/Revisions/ApplyRevisions').Run();
 }
 
 examples();

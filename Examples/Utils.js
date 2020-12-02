@@ -32,6 +32,7 @@ class Utils {
 		await this.UploadTestFile("source_files/text/source.txt");
 		await this.UploadTestFile("source_files/word/source.docx");
 		await this.UploadTestFile("source_files/word/source_protected.docx");
+		await this.UploadTestFile("source_files/word/source_with_revs.docx");
 		await this.UploadTestFile("target_files/cell/target.xlsx");
 		await this.UploadTestFile("target_files/cell/target_protected.xlsx");
 		await this.UploadTestFile("target_files/diagram/target.vsdx");
