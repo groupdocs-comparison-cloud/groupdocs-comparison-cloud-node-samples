@@ -57,6 +57,8 @@ async function examples() {
     await require('./AdvancedUsage/GetListOfChanges').Run();
     await require('./AdvancedUsage/Revisions/GetListOfRevisions').Run();
     await require('./AdvancedUsage/Revisions/ApplyRevisions').Run();
+    await require('./AdvancedUsage/Revisions/AcceptAllRevisions').Run();
+    await require('./AdvancedUsage/Revisions/RejectAllRevisions').Run();
 }
 
 examples();
