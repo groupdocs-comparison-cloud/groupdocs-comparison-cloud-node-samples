@@ -33,6 +33,9 @@ global.fileApi = comparison_cloud.FileApi.fromConfig(config);
 // construct StorageApi
 global.storageApi = comparison_cloud.StorageApi.fromConfig(config);
 
+// construct LicenseApi
+global.licenseApi = comparison_cloud.LicenseApi.fromConfig(config);
+
 async function examples() {
 
     try {
