@@ -7,7 +7,7 @@
     "name": "GroupDocs Product Team"
   },
   "dependencies": {
-    "groupdocs-comparison-cloud": "^24.2.0"
+    "groupdocs-comparison-cloud": "^25.2.0"
   },
   "scripts": {
     "start": "node RunExamples.js"

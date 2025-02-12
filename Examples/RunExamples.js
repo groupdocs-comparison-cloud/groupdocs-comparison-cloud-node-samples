@@ -24,6 +24,9 @@ global.compareApi = comparison_cloud.CompareApi.fromConfig(config);
 // construct ReviewApi
 global.reviewApi = comparison_cloud.ReviewApi.fromConfig(config);
 
+// construct PreviewApi
+global.previewApi = comparison_cloud.PreviewApi.fromConfig(config);
+
 // construct InfoApi
 global.infoApi = comparison_cloud.InfoApi.fromConfig(config);
 
@@ -47,6 +50,7 @@ async function examples() {
         await require('./BasicUsage/GetDocumentInformation').Run();
         await require('./BasicUsage/CompareDocuments').Run();
         await require('./BasicUsage/CompareDifferentFormats/ComparePdfDocuments').Run();
+        await require('./BasicUsage/PreviewDocument').Run();  
 
         // Advanced usage Examples
         await require('./AdvancedUsage/CompareMultipleDocuments/CompareMultipleDocumentsOptions').Run();
